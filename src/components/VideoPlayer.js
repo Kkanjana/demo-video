@@ -19,10 +19,10 @@ const VideoPlayer = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12 back-page">
-                    <button type="button" className="btn btn-danger">
-                        <Link to="/" className="link-back">BACK</Link>
-                    </button>
+                <div className="col-12 back-page"> 
+                    <Link to="/">
+                        <button type="button" className="btn btn-danger">BACK</button>
+                    </Link>
                 </div>
             </div>
         </div>
