@@ -46,10 +46,16 @@ body {
 }
 .video-player-body {
   width: 100%;
-  height: 60vh !important;
+  height: 100%;
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+@media(max-width: 768px) {
+  .video-player-body {
+    width: auto !important;
+    height: 50vh !important;
+  }
 }
 .back-page {
   padding: 15px 0 0;
