@@ -41,13 +41,8 @@ body {
   padding: 10px 0;
 }
 .card-video-player {
-  width: 60% !important;
-}
-@media(max-width: 768px) {
-  .card-video-player {
-    height: 100% !important;
-    width: 90% !important;
-  }
+  height: 100% !important;
+  width: 100% !important;
 }
 .video-player-body {
   width: 100%;
@@ -58,6 +53,7 @@ body {
 }
 .back-page {
   padding: 15px 0 0;
+  text-align: center;
 }
 .btn-danger {
   width: 100px;

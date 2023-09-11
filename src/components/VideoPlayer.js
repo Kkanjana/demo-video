@@ -8,7 +8,7 @@ const VideoPlayer = () => {
 
     return (
         <div className="video-player">
-            <div className="d-flex justify-content-center">
+            <div className="position-absolute top-50 start-50 translate-middle">
                 <div className="card card-video-player">
                     <video className="video-player-body" controls autoPlay={true}>
                         <source src={`${video.url}`} type="video/mp4" />
@@ -17,8 +17,6 @@ const VideoPlayer = () => {
                         <p className="card-text-header">{video.title}</p>
                     </div>
                 </div>
-            </div>
-            <div className="row">
                 <div className="col-12 back-page"> 
                     <Link to="/">
                         <button type="button" className="btn btn-danger">BACK</button>
