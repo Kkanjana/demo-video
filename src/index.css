@@ -41,8 +41,13 @@ body {
   padding: 10px 0;
 }
 .card-video-player {
-  height: 80vh !important;
   width: 60% !important;
+}
+@media(max-width: 768px) {
+  .card-video-player {
+    height: 60vh !important;
+    width: 90% !important;
+  }
 }
 .video-player-body {
   width: 100%;
