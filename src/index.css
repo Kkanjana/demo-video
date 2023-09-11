@@ -41,6 +41,7 @@ body {
   padding: 10px 0;
 }
 .card-video-player {
+  height: 80vh !important;
   width: 60% !important;
 }
 .video-player-body {
